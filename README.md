@@ -104,6 +104,26 @@ use {
 }
 ```
 
+or with lazy.nvim
+
+```lua
+{
+	{
+		"codethread/qmk.nvim",
+		opts = {
+			name = "LAYOUT_preonic_grid",
+			layout = {
+				"_ x x x x x x _ x x x x x x",
+				"_ x x x x x x _ x x x x x x",
+				"_ x x x x x x _ x x x x x x",
+				"_ x x x x x x _ x x x x x x",
+				"_ x x x x x x _ x x x x x x",
+			},
+		},
+	},
+}
+```
+
 ## Configuration
 
 qmk.nvim takes the following configuration (`---@type qmk.UserConfig`):
